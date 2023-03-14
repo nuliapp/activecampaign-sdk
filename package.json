@@ -1,0 +1,21 @@
+{
+  "name": "activecampaign-sdk",
+  "version": "1.0.0",
+  "description": "Activecampaign node.js SDK w/ full Typescript definitions",
+  "main": "./dist/src/index.js",
+  "repository": "https://github.com/nuli/activecampaign-sdk",
+  "author": "Maxime Bertonnier",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.55.0",
+    "@typescript-eslint/parser": "^5.55.0",
+    "typescript": "^4.9.5"
+  },
+  "dependencies": {
+    "form-data": "^4.0.0",
+    "node-fetch": "2.6.9"
+  }
+}
